@@ -1,0 +1,67 @@
+.body {
+  margin-bottom: 55px;
+}
+
+.mobile_photo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  gap: 3%;
+
+  margin-bottom: 5px;
+
+  img {
+    width: 90%;
+  }
+}
+
+.description_title {
+  margin-bottom: 20px;
+}
+.description_text {
+  margin-bottom: 20px;
+}
+
+.ul {
+  padding-left: 25px;
+  margin-bottom: 20px;
+
+  li::marker {
+    color: #081630;
+  }
+}
+
+.report {
+  display: flex;
+  align-items: center;
+
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #009cff;
+
+  p {
+    margin-right: 13px;
+  }
+}
+
+.title {
+  padding-top: 50px;
+  position: relative;
+}
+
+.title::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+
+  height: 89px;
+  width: 100px;
+
+  top: 0px;
+  right: 0px;
+
+  background: url('../../shared/assets/photo/coolSmile.png') no-repeat;
+  background-size: contain;
+}

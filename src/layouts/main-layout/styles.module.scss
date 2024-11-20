@@ -1,0 +1,28 @@
+$--purple-vector: #edebf6;
+$--rose-vector: #fdf1f8;
+$--blue-vector: #eef8fe;
+$--green-vector: #ebf5ec;
+
+.bg {
+  background: linear-gradient(
+    90deg,
+    $--purple-vector 0%,
+    $--purple-vector 25%,
+    $--rose-vector 25%,
+    $--rose-vector 50%,
+    $--blue-vector 50%,
+    $--blue-vector 75%,
+    $--green-vector 75%,
+    $--green-vector 100%
+  );
+
+  overflow-x: hidden;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: calc(100vw / 2);
+    margin: 0px auto;
+    height: 100vh;
+  }
+}
