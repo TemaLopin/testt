@@ -91,3 +91,33 @@ html {
     color: #081630;
   }
 }
+
+.swiper-pc {
+  width: 100%;
+}
+
+.swiper-pc .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: fit-content;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-mobile {
+  width: 100%;
+}
+
+.swiper-mobile .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: fit-content;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+
+.img_body {
+  width: 100%;
+
+  img {
+    width: 300px;
+    border-radius: 16px;
+  }
+}
+
+.text_body {
+  width: 55%;
+}
+
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.description_body {
+  margin-top: 30px;
+  position: relative;
+
+  width: 70%;
+  margin-left: auto;
+}
+
+.description_body:before {
+  content: '';
+  display: block;
+
+  left: -200px;
+  top: -100px;
+  position: absolute;
+
+  z-index: 2;
+  rotate: 20deg;
+
+  width: 162px;
+  height: 162px;
+  background: url('../../../shared/assets/icons/more18.svg') no-repeat center center;
+  background-size: contain;
+}
+
+.description_title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description_text {
+  margin-bottom: 20px;
+}
+
+.description_subtext {
+  color: #ec1c24;
+}

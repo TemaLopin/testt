@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useState } from 'react'
 import { ReactComponent as CrossIcon } from '../../shared/assets/icons/cross.svg'
 import { ReactComponent as BurgerIcon } from '../../shared/assets/icons/burger.svg'
 import s from './styles.module.scss'
@@ -7,9 +7,10 @@ import clsx from 'clsx'
 export const Burger = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const handleClick = useCallback(() => {
+  const handleClick = (route) => {
+    if (typeof route === 'string') window.location.replace(route)
     setIsOpen((prev) => !prev)
-  })
+  }
 
   return (
     <div>
@@ -18,17 +19,18 @@ export const Burger = () => {
       </button>
 
       <div className={clsx(s.menu, isOpen && s.active)}>
-        <a href='#howToPlay'>Как играть?</a>
-        <a href='#phone'>Смартфон за отзыв</a>
-        <a href='#notRF'>Если вы не в РФ</a>
-        <a href='#gamehack'>Геймхаки</a>
-        <a href='#merch'>Мерч</a>
-        <a href='#feetback'>Обратная связь</a>
+        <div>
+          <p onClick={() => handleClick('#howToPlay')}>Как играть?</p>
+          <p onClick={() => handleClick('#phone')}>Смартфон за отзыв</p>
+          <p onClick={() => handleClick('#notRF')}>Если вы не в РФ</p>
+          <p onClick={() => handleClick('#gamehack')}>Геймхаки</p>
+          <p onClick={() => handleClick('#merch')}>Мерч</p>
+          <p onClick={() => handleClick('#feetback')}>Обратная связь</p>
+        </div>
         <button onClick={handleClick}>
           <CrossIcon />
         </button>
       </div>
-      <div className={clsx(s.back, isOpen && s.back_active)}></div>
     </div>
   )
 }
