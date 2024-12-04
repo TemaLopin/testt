@@ -8,7 +8,9 @@
   margin-bottom: 20px;
 
   img {
-    width: 120px;
+    height: auto;
+    max-width: 100%;
+
     border-radius: 16px;
   }
 
@@ -34,6 +36,8 @@
   margin-bottom: 30px;
 
   position: relative;
+
+  text-align: center;
 }
 
 .title::after {

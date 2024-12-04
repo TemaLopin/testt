@@ -99,7 +99,7 @@ html {
 .swiper-pc .swiper-slide {
   text-align: center;
   font-size: 18px;
-  width: fit-content;
+  width: 300px;
 
   /* Center slide text vertically */
   display: flex;
@@ -114,7 +114,6 @@ html {
 .swiper-mobile .swiper-slide {
   text-align: center;
   font-size: 18px;
-  width: fit-content;
 
   /* Center slide text vertically */
   display: flex;

@@ -15,15 +15,25 @@ $--green-vector: #ebf5ec;
     $--green-vector 75%,
     $--green-vector 100%
   );
-
+  position: relative;
   overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.footer {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  background: #009dfb;
 }
 
 @media (min-width: 900px) {
   .container {
     width: calc(100vw / 2);
     margin: 0px auto;
-    height: 100vh;
+    // height: 100vh;
     padding: 0px 10px;
   }
 }

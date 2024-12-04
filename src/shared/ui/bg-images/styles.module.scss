@@ -1,0 +1,69 @@
+.left {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  left: 0px;
+
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  right: 0px;
+  position: absolute;
+
+  width: 50%;
+}
+
+.purple_arrow {
+  width: 150%;
+}
+
+.any_object {
+  position: relative;
+  left: -100px;
+
+  height: 300px;
+  width: 300px;
+}
+
+.pink_arrow {
+  position: relative;
+  width: 500px;
+
+  margin-bottom: 100px;
+}
+.green_block {
+  width: 290px;
+  width: 300px;
+}
+
+.pink_block {
+  position: relative;
+  right: 20%;
+
+  width: 210px;
+  height: 215px;
+
+  margin-bottom: 50px;
+}
+
+.green_arrow {
+  width: 50%;
+}
+
+.lecarstva {
+  transform: translateY(80%);
+
+  height: 340px;
+  width: 340px;
+}
+
+.blue_arrow {
+  transform: translateY(-50%);
+  width: 180%;
+}

@@ -1,8 +1,8 @@
 import s from './styles.module.scss'
 
-export const ContainerLG = ({ img, children }) => {
+export const ContainerLG = ({ img, children, ...props }) => {
   return (
-    <div className={s.body}>
+    <div className={s.body} {...props}>
       <div className={s.img_body}>
         <img src={img} />
       </div>

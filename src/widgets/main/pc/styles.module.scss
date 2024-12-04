@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+
+  margin-bottom: 100px;
+}
+
+.image {
+  height: fit-content;
+  width: 55%;
+
+  position: relative;
+  left: -50px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 15%;
+  width: 50%;
+
+  position: relative;
+  left: -50px;
+}
+
+.cards {
+  width: 80%;
+  margin-bottom: 100px;
+}

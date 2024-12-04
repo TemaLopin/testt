@@ -5,7 +5,7 @@ import { ContainerLG } from '../../../shared/ui/container-lg'
 
 export const MerchPC = () => {
   return (
-    <ContainerLG img={Photo}>
+    <ContainerLG img={Photo} id={'merch'}>
       <p className={clsx('title', s.title)}>Мерч</p>
 
       <p className={clsx('description_text', s.description_text)}>

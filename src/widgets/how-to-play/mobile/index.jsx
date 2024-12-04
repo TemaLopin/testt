@@ -6,10 +6,10 @@ import Like from '../../../shared/assets/photo/like.png'
 import { SwiperSlide, Swiper } from 'swiper/react'
 import { Navigation, Autoplay } from 'swiper/modules'
 
-import Byi from '../../../shared/assets/photo/bui.png'
-import Rot from '../../../shared/assets/photo/rot.png'
-import Tonel from '../../../shared/assets/photo/tonel.png'
-import Buhta from '../../../shared/assets/photo/buhta.jpeg'
+import Byi from '../../../shared/assets/gif/byi.gif'
+import Rot from '../../../shared/assets/gif/grot.gif'
+import Tonel from '../../../shared/assets/gif/tonel.gif'
+import Buhta from '../../../shared/assets/gif/buhta.gif'
 
 import s from './styles.module.scss'
 
@@ -27,8 +27,16 @@ export const HowToPlay = () => {
           className={'swiper-pc'}
           loop={true}
           autoplay={{
-            delay: 500,
+            delay: 1000,
             disableOnInteraction: false,
+          }}
+          breakpoints={{
+            300: {
+              slidesPerView: 2.5,
+            },
+            500: {
+              slidesPerView: 3,
+            },
           }}
           modules={[Navigation, Autoplay]}
         >

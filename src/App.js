@@ -21,7 +21,7 @@ function App() {
 
   const onClose = () => tg.close()
 
-  return <MainLayout>{width > 1000 ? <PC /> : <Mobile />}</MainLayout>
+  return <MainLayout>{width > 1900 ? <PC /> : <Mobile />}</MainLayout>
 }
 
 export default App

@@ -5,7 +5,7 @@ import { ContainerLG } from '../../../shared/ui/container-lg'
 
 export const GivePhonePC = () => {
   return (
-    <ContainerLG img={Photo}>
+    <ContainerLG img={Photo} id={'phone'}>
       <p className={clsx('title', s.title)}>Смартфон за отзыв</p>
 
       <p className={clsx('description_text', s.description_text)}>

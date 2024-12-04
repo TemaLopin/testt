@@ -8,7 +8,7 @@ import clsx from 'clsx'
 
 export const GameHackPC = () => {
   return (
-    <div className={s.body}>
+    <div className={s.body} id={'gamehack'}>
       <div className={s.img_body}>
         <img style={{ opacity: '0.4', borderRadius: 10 }} src={Photo} />
         <div>

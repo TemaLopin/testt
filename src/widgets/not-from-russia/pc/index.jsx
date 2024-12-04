@@ -5,7 +5,7 @@ import { ContainerLG } from '../../../shared/ui/container-lg'
 
 export const NotFromRussiaPC = () => {
   return (
-    <ContainerLG img={Photo}>
+    <ContainerLG img={Photo} id={'notRF'}>
       <p className={clsx('title', s.title)}>Если вы не в РФ</p>
 
       <p className={clsx('description_text', s.description_text)}>

@@ -6,10 +6,10 @@ import Like from '../../../shared/assets/photo/like.png'
 import { SwiperSlide, Swiper } from 'swiper/react'
 import { Navigation, Autoplay } from 'swiper/modules'
 
-import Byi from '../../../shared/assets/photo/bui.png'
-import Rot from '../../../shared/assets/photo/rot.png'
-import Tonel from '../../../shared/assets/photo/tonel.png'
-import Buhta from '../../../shared/assets/photo/buhta.jpeg'
+import Byi from '../../../shared/assets/gif/byi.gif'
+import Rot from '../../../shared/assets/gif/grot.gif'
+import Tonel from '../../../shared/assets/gif/tonel.gif'
+import Buhta from '../../../shared/assets/gif/buhta.gif'
 
 import s from './styles.module.scss'
 
@@ -18,7 +18,7 @@ export const HowToPlayPC = () => {
   const renderSlides = [...slides, ...slides, ...slides]
 
   return (
-    <div className={s.body}>
+    <div className={s.body} id={'howToPlay'}>
       <div className={s.text_body}>
         <p className={clsx('title', s.title)}>Как играть?</p>
         <p className={clsx('description_title', s.description_title)}>В игре 4 финиша.</p>
@@ -26,11 +26,16 @@ export const HowToPlayPC = () => {
       <div className={s.img_body}>
         <Swiper
           slidesPerView={3}
-          spaceBetween={300}
+          spaceBetween={10}
           className={'swiper-pc'}
           loop={true}
+          breakpoints={{
+            1000: {
+              slidesPerView: 3.5,
+            },
+          }}
           autoplay={{
-            delay: 500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           modules={[Navigation, Autoplay]}

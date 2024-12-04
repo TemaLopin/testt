@@ -9,7 +9,6 @@ import { Burger } from '../widgets/burger'
 export const Mobile = () => {
   return (
     <>
-      <Burger />
       <HowToPlay />
       <GivePhone />
       <NotFromRussia />

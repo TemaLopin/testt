@@ -1,0 +1,33 @@
+.container {
+  width: calc(100vw / 2);
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
+.bg {
+  width: 100%;
+  background-color: #fff;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 40px 30px;
+  gap: 10px;
+}
+
+.container ul li {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (min-width: 1450px) {
+  .container ul {
+    list-style-type: disc;
+    li {
+      text-decoration: none;
+    }
+  }
+}
