@@ -13,7 +13,7 @@ export const PC = () => {
     <div style={{ padding: '50px 0px' }}>
       <MainPC />
       <HowToPlayPC />
-      <GivePhonePC />
+      {/* <GivePhonePC /> */}
       <NotFromRussiaPC />
       <GameHackPC />
       <MerchPC />

@@ -10,7 +10,7 @@ export const Mobile = () => {
   return (
     <>
       <HowToPlay />
-      <GivePhone />
+      {/* <GivePhone /> */}
       <NotFromRussia />
       <GameHack />
       <Merch />
