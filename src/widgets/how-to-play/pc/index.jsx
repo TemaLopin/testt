@@ -4,7 +4,7 @@ import Ahaha from '../../../shared/assets/photo/ahaha.png'
 import Like from '../../../shared/assets/photo/like.png'
 
 import { SwiperSlide, Swiper } from 'swiper/react'
-import { Navigation, Autoplay } from 'swiper/modules'
+import { Autoplay, EffectCoverflow } from 'swiper/modules'
 
 import Byi from '../../../shared/assets/gif/byi.gif'
 import Rot from '../../../shared/assets/gif/grot.gif'
@@ -29,16 +29,18 @@ export const HowToPlayPC = () => {
           spaceBetween={10}
           className={'swiper-pc'}
           loop={true}
+          speed={2000}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+            waitForTransition: true,
+          }}
+          modules={[Autoplay]}
           breakpoints={{
             1000: {
               slidesPerView: 3.5,
             },
           }}
-          autoplay={{
-            delay: 1000,
-            disableOnInteraction: false,
-          }}
-          modules={[Navigation, Autoplay]}
         >
           {renderSlides?.map((slide) => (
             <SwiperSlide>

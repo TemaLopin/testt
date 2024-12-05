@@ -26,10 +26,13 @@ export const HowToPlay = () => {
           spaceBetween={20}
           className={'swiper-pc'}
           loop={true}
+          speed={2000}
           autoplay={{
-            delay: 1000,
+            delay: 0,
             disableOnInteraction: false,
+            waitForTransition: true,
           }}
+          modules={[Autoplay]}
           breakpoints={{
             300: {
               slidesPerView: 2.5,
@@ -38,7 +41,6 @@ export const HowToPlay = () => {
               slidesPerView: 3,
             },
           }}
-          modules={[Navigation, Autoplay]}
         >
           {renderSlides?.map((slide) => (
             <SwiperSlide>
