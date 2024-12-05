@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  top: -50px;
+
+  @media (min-width: 1000px) {
+    top: 0px;
+  }
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.smallImage {
+  object-fit: contain;
+  width: 80%;
+}

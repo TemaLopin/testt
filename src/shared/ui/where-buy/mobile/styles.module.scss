@@ -36,13 +36,20 @@
 }
 
 .ozon {
-  background: url('../../../assets/icons/ozon.svg') no-repeat center center;
-  background-size: 100%;
+  padding: 15px 18px;
+  border-radius: 13px;
+  content: url('../../../assets//icons//ozon.svg');
+  background: #0069ff;
+  background-size: contain;
 }
 
 .wb {
-  background: url('../../../assets/icons/wb.svg') no-repeat center center;
+  padding: 15px 18px;
+  border-radius: 13px;
+  content: url('../../../assets//icons//wb.svg');
+  background: linear-gradient(90deg, #bf1f81 0%, #4d327c 100%);
   background-size: 100%;
+  margin-right: 15px;
 }
 
 .not_rf {

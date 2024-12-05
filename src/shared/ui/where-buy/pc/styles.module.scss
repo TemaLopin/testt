@@ -28,15 +28,15 @@
 .container::after {
   content: '';
 
-  width: 220px;
-  height: 250px;
+  width: 252px;
+  height: 283px;
 
   position: absolute;
 
   background: url('../../../assets/photo/game.png') no-repeat center center;
   background-size: contain;
 
-  left: -20%;
+  left: -165px;
   top: -50%;
 }
 

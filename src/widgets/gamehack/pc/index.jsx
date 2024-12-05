@@ -21,12 +21,8 @@ export const GameHackPC = () => {
         </div>
       </div>
       <div className={s.text_body}>
-        <p className={'title'}>Геймхаки</p>
+        <p className={clsx('title', s.title)}>Геймхаки</p>
 
-        <p className={clsx('description_text', s.description_text)}>
-          Итак, вам нужно пройти от старта к финишу. Чтобы быстрее ориентироваться обращайте внимание на цвет стрелок в
-          ячейках.
-        </p>
         <p className={clsx('description_text', s.description_text)}>
           Итак, вам нужно пройти от старта к финишу. Чтобы быстрее ориентироваться обращайте внимание на цвет стрелок в
           ячейках.

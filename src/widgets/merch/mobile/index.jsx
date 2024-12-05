@@ -29,6 +29,12 @@ export const Merch = () => {
         <li>
           <p className='description_text'>футбоки</p>
         </li>
+        <li>
+          <p className='description_text'>стикеры на телефон</p>
+        </li>
+        <li>
+          <p className='description_text'>стереомагниты с иллюстрацей финишей с GIF эффектом</p>
+        </li>
       </ul>
 
       <div className={clsx('container', s.report)}>

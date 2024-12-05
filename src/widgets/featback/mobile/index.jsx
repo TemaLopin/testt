@@ -15,7 +15,7 @@ export const FeetBack = () => {
           Залетай в <a href='#'> наш чат </a> и предлагай свои идеи как сделать игру еще интереснее, пикантнее,
           познавательнее.
         </p>
-        <p className={clsx('description_text', s.description_text)}>
+        <p className={clsx('description_text', s.description_text, s.money)}>
           Лучшие предложения мы обязательно учтем при создании следующей версии игры и щедро наградим авторов.
         </p>
       </div>

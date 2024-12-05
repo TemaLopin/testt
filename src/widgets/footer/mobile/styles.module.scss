@@ -9,9 +9,12 @@
   color: #fff;
 }
 
+.container {
+  padding: 0px 0px 50px 0px;
+}
+
 .logo {
-  margin: 0px auto;
-  margin-bottom: 20px;
+  margin: 20px auto 20px auto;
 }
 
 .about {
@@ -37,7 +40,7 @@
 
 .copyright {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   a {
     font-size: 14px;

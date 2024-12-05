@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.footer_top {
+  padding: 20px 0px;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.logo {
+  transform: scale(1.6);
+  margin: 20px auto 20px auto;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+
+  row-gap: 5px;
+
+  font-size: 20px;
+
+  p {
+    font-weight: 700;
+  }
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+
+  margin-bottom: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 20px;
+
+  a {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

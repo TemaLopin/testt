@@ -16,8 +16,7 @@ $--green-vector: #ebf5ec;
     $--green-vector 100%
   );
   position: relative;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
 }
 
@@ -33,7 +32,5 @@ $--green-vector: #ebf5ec;
   .container {
     width: calc(100vw / 2);
     margin: 0px auto;
-    // height: 100vh;
-    padding: 0px 10px;
   }
 }

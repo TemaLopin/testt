@@ -1,11 +1,13 @@
 .body {
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
 }
 
 .mobile_photo {
   width: 100%;
   margin-bottom: 20px;
+
+  position: relative;
 
   img {
     height: auto;
@@ -94,4 +96,10 @@
 
   transform: translateX(2px) translateY(3px);
   rotate: -28deg;
+}
+
+.description_subtext {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ec1c24;
 }

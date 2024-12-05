@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import s from './styles.module.scss'
 import Photo from '../../../shared/assets/photo/merch.png'
 import { ContainerLG } from '../../../shared/ui/container-lg'
+import { ReactComponent as Telegram } from '../../../shared/assets/icons/telegram.svg'
 
 export const MerchPC = () => {
   return (
@@ -25,7 +26,17 @@ export const MerchPC = () => {
         <li>
           <p className='description_text'>футбоки</p>
         </li>
+        <li>
+          <p className='description_text'>стикеры на телефон</p>
+        </li>
+        <li>
+          <p className='description_text'>стереомагниты с иллюстрацей финишей с GIF эффектом</p>
+        </li>
       </ul>
+      <div className={clsx(s.report)}>
+        <p>Проголосовать →</p>
+        <Telegram />
+      </div>
     </ContainerLG>
   )
 }

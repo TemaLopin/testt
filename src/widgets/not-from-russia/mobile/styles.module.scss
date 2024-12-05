@@ -28,7 +28,6 @@
   position: relative;
 }
 
-
 .title::after {
   content: ' ';
   display: block;
@@ -44,4 +43,22 @@
   background-size: contain;
 }
 
+.description_subtext {
+  position: relative;
+}
 
+.description_subtext::after {
+  content: '';
+
+  height: 28px;
+  width: 22px;
+
+  display: inline-block;
+  position: absolute;
+
+  top: -10px;
+  right: 0px;
+
+  background: url('../../../shared/assets/photo/finish.png') no-repeat center center;
+  background-size: 22px 28px;
+}

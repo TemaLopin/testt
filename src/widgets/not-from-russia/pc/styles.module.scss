@@ -3,7 +3,24 @@
 }
 
 .title {
+  position: relative;
   margin-bottom: 30px;
+  width: fit-content;
+}
+
+.title::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+
+  height: 105px;
+  width: 105px;
+
+  top: -60px;
+  right: -150px;
+
+  background: url('../../../shared/assets/photo/not-from-world.png') no-repeat;
+  background-size: contain;
 }
 
 .description_title {
@@ -12,4 +29,25 @@
 
 .description_text {
   margin-bottom: 20px;
+}
+
+.description_subtext {
+  width: fit-content;
+  position: relative;
+}
+
+.description_subtext::after {
+  content: '';
+
+  height: 55px;
+  width: 45px;
+
+  display: inline-block;
+  position: absolute;
+
+  top: -20px;
+  right: -50px;
+
+  background: url('../../../shared/assets/photo/finish.png') no-repeat center center;
+  background-size: 55px 45px;
 }

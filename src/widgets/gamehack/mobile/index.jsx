@@ -10,18 +10,21 @@ import DoorRight from '../../../shared/assets/photo/door_rose_arrow.png'
 export const GameHack = () => {
   return (
     <div className={s.body} id='gamehack'>
-      <p className={clsx('title','container', s.title)}>Геймхаки</p>
+      <p className={clsx('title', 'container', s.title)}>Геймхаки</p>
       <div className='container'>
-        <p className={clsx('description_text', s.description_text)}>
+        <p className={clsx('description_text', s.description_text, s.border)}>
           Итак, вам нужно пройти от старта к финишу. Чтобы быстрее ориентироваться обращайте внимание на цвет стрелок в
-          ячейках. <br /> <b> - зелёная стрелка </b> – двигаетесь вперёд,
+          ячейках.
+        </p>
+        <p className={clsx('description_text', s.description_text)}>
+          <b> - зелёная стрелка </b> – двигаетесь вперёд,
           <br /> <b> - красная стрелка </b> –назад, <br /> В стрелках показано количество ходов, которые надо сделать.
           <br />
           Описание самих ячеек смотри в бумажных правилах.
         </p>
       </div>
 
-      <div className={clsx('container', s.mobile_photo)}>
+      <div className={clsx('container', s.mobile_photo, s.border)}>
         <img src={Hack} alt='Геймхаки' />
       </div>
 
@@ -32,7 +35,7 @@ export const GameHack = () => {
         </p>
       </div>
 
-      <div className={clsx('container', s.block_photo_2)}>
+      <div className={clsx('container', s.block_photo_2, s.border)}>
         <img src={Cards} alt='Карты' />
         <img src={Svaz} alt='Случайные связи' />
       </div>

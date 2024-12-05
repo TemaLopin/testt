@@ -25,6 +25,42 @@
 .title {
   margin-bottom: 30px;
   text-align: center;
+
+  position: relative;
+}
+
+.title::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+
+  height: 51px;
+  width: 49px;
+
+  right: -90px;
+  bottom: 0px;
+
+  rotate: 34deg;
+
+  background: url('../../../shared/assets/photo/cube.png') no-repeat;
+  background-size: contain;
+}
+
+.title::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+
+  height: 100px;
+  width: 165px;
+
+  right: -30px;
+  bottom: 0px;
+
+  rotate: 0deg;
+
+  background: url('../../../shared/assets/photo/game-item.png') no-repeat;
+  background-size: contain;
 }
 
 .description_body {
@@ -62,5 +98,24 @@
 }
 
 .description_subtext {
+  position: relative;
+  text-transform: uppercase;
   color: #ec1c24;
+}
+
+.like {
+  position: absolute;
+
+  width: 40px;
+  height: 45px;
+
+  transform: translateX(2px) translateY(3px);
+  rotate: -28deg;
+}
+
+.ahaha {
+  position: absolute;
+  transform: translateX(-35px) translateY(-10px);
+  height: 47px;
+  width: 100px;
 }

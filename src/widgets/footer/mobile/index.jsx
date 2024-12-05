@@ -26,7 +26,6 @@ export const Footer = () => {
           </span>
         </div>
         <div className={s.copyright}>
-          <a href={'#'}>Праововая информация</a>
           <span>Copyright 2025 ©</span>
         </div>
       </div>

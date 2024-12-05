@@ -2,12 +2,18 @@
   background: transparent;
   border: none;
 
-  position: fixed;
-
-  top: 20px;
-  right: 10px;
-
   z-index: 3;
+}
+
+.container {
+  width: 100%;
+  background: #fff;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 25px 30px 75px 30px;
 }
 
 .menu {
