@@ -18,7 +18,7 @@ export const MainLayout = ({ children }) => {
         {width > 1600 && <BGImage />}
         <div className={s.container}>{children}</div>
         <div className={s.footer}>
-          <div className={s.container}>{width > 1000 ? <FooterPC /> : <Footer />}</div>
+          <div className={s.container}>{width > 1400 ? <FooterPC /> : <Footer />}</div>
         </div>
       </div>
     </>
