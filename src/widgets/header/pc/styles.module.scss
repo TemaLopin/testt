@@ -18,6 +18,10 @@
   gap: 10px;
 }
 
+.container ul li:first-child {
+  list-style: none
+}
+
 .container ul li {
   cursor: pointer;
   text-decoration: underline;

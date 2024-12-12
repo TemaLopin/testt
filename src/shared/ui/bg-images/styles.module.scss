@@ -7,6 +7,11 @@
 
   width: 50%;
   z-index: 5;
+
+  @media (max-width: 1600px) {
+    transform: scale(0.8, 1);
+    left: -5%;
+  }
 }
 
 .right {
@@ -19,6 +24,11 @@
 
   width: 50%;
   z-index: 5;
+
+  @media (max-width: 1600px) {
+    transform: scale(0.8, 1);
+    right: -5%;
+  }
 }
 
 .purple_arrow {

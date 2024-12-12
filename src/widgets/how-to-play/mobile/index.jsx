@@ -28,7 +28,7 @@ export const HowToPlay = () => {
           loop={true}
           speed={2000}
           autoplay={{
-            delay: 0,
+            delay: 1000,
             disableOnInteraction: false,
             waitForTransition: true,
           }}
