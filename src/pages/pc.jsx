@@ -18,7 +18,7 @@ export const PC = () => {
       <GameHackPC />
       <MerchPC />
       <FeetBackPC />
-      <div style={{ width: 'fit-content', margin: '150px auto' }}>
+      <div style={{ width: 'fit-content', margin: '150px auto 50px auto' }}>
         <WhereBuyPC />
       </div>
     </div>
