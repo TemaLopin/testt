@@ -1,8 +1,6 @@
 .container {
   width: 100%;
   display: flex;
-
-  margin-bottom: 100px;
 }
 
 .image {
@@ -23,10 +21,23 @@
   width: 50%;
 
   position: relative;
-  left: -50px;
+  // left: -50px;
 }
 
 .cards {
   width: 80%;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+  transform: scale(1.2);
+}
+
+
+.wherebuy {
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 150px;
+
+  position: relative;
+  top: 0px
 }

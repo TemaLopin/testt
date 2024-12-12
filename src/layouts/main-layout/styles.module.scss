@@ -7,12 +7,12 @@ $--green-vector: #ebf5ec;
   background: linear-gradient(
     90deg,
     $--purple-vector 0%,
-    $--purple-vector 25%,
-    $--rose-vector 25%,
+    $--purple-vector 20%,
+    $--rose-vector 20%,
     $--rose-vector 50%,
     $--blue-vector 50%,
-    $--blue-vector 75%,
-    $--green-vector 75%,
+    $--blue-vector 80%,
+    $--green-vector 80%,
     $--green-vector 100%
   );
   position: relative;
@@ -30,7 +30,7 @@ $--green-vector: #ebf5ec;
 
 @media (min-width: 900px) {
   .container {
-    width: calc(100vw / 2);
+    width: 60vw;
     margin: 0px auto;
   }
 }
