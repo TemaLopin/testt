@@ -67,35 +67,6 @@ html {
 @media (min-width: 1200px) {
   .title {
     text-align: start;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 37px;
-  }
-
-  .description_title {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-  }
-
-  .description_text {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-  }
-
-  .description_subtext {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-
-    color: #081630;
-  }
-}
-
-@media (min-width: 800px) {
-  .title {
-    text-align: start;
     font-size: 24px;
     font-weight: 400;
     line-height: 37px;
@@ -116,6 +87,35 @@ html {
   .description_subtext {
     font-weight: 700;
     font-size: 12px;
+    line-height: 28px;
+
+    color: #081630;
+  }
+}
+
+@media (min-width: 1400px) {
+  .title {
+    text-align: start;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+  }
+
+  .description_title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .description_text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .description_subtext {
+    font-weight: 700;
+    font-size: 16px;
     line-height: 28px;
 
     color: #081630;

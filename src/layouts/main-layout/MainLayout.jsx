@@ -14,11 +14,11 @@ export const MainLayout = ({ children }) => {
   return (
     <>
       <div className={s.bg}>
-        {width > 1000 ? <Header /> : <Burger />}
+        {width > 1024 ? <Header /> : <Burger />}
         {width > 1200 && <BGImage />}
         <div className={s.container}>{children}</div>
         <div className={s.footer}>
-          <div className={s.container}>{width > 1200 ? <FooterPC /> : <Footer />}</div>
+          <div className={s.container}>{width > 1124 ? <FooterPC /> : <Footer />}</div>
         </div>
       </div>
     </>
