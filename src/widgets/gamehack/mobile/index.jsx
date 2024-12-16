@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import s from './styles.module.scss'
 
-import Hack from '../../../shared/assets/photo/hack.jpeg'
+import Hack from '../../../shared/assets/photo/hack.png'
 import Svaz from '../../../shared/assets/photo/svaz.png'
 import Cards from '../../../shared/assets/photo/cards.png'
 import DoorLeft from '../../../shared/assets/photo/door_green_arrow.png'

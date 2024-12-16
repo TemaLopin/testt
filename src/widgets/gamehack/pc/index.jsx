@@ -1,5 +1,5 @@
 import s from './styles.module.scss'
-import Photo from '../../../shared/assets/photo/hack.jpeg'
+import Photo from '../../../shared/assets/photo/hack.png'
 import Card from '../../../shared/assets/photo/cards.png'
 import Svaz from '../../../shared/assets/photo/svaz.png'
 import DoorLeft from '../../../shared/assets/photo/door_green_arrow.png'
@@ -14,7 +14,7 @@ export const GameHackPC = () => {
     <>
       <div className={s.body} id={'gamehack'}>
         <div className={s.img_body}>
-          <img style={{ opacity: '0.4', borderRadius: 10 }} src={Photo} />
+          <img style={{ borderRadius: 10 }} src={Photo} />
           <div>
             <img src={Card} />
             <img src={Svaz} />
