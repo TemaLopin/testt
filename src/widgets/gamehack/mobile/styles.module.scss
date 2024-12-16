@@ -104,3 +104,57 @@
   padding-bottom: 15px;
   border-bottom: 1px solid #000;
 }
+
+.description_subtext {
+  position: relative;
+
+  width: fit-content;
+
+  text-transform: uppercase;
+  font-family: 'Capture it', sans-serif;
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  padding: 10px 20px;
+  margin: 0px auto;
+  border-radius: 20px;
+
+  font-weight: 400;
+  background: #009cff;
+}
+
+.description_subtext::after {
+  content: '';
+  width: 43px;
+  height: 43px;
+
+  right: -20px;
+  top: -5px;
+  rotate: 30deg;
+
+  display: inline-block;
+  position: absolute;
+
+  background: url('../../../shared/assets/photo/star.png') no-repeat center center;
+  background-size: contain;
+}
+
+.green_color {
+  color: #3da237;
+}
+
+.red_color {
+  color: #ec1c24;
+}
+
+.blue_color {
+  color: #009cff;
+}
+
+.rainbow :nth-child(even) {
+  color: #009cff;
+}
+.rainbow :nth-child(odd) {
+  color: #ec1c24;
+}

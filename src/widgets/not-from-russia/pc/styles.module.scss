@@ -34,20 +34,33 @@
 .description_subtext {
   width: fit-content;
   position: relative;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Capture it', sans-serif;
+  letter-spacing: 1px;
 }
 
-.description_subtext::after {
-  content: '';
-
+.finish {
   height: 55px;
   width: 45px;
 
   display: inline-block;
-  position: absolute;
 
+
+  left: 20px;
   top: -20px;
-  right: -50px;
+  transform: scale(2);
 
-  background: url('../../../shared/assets/photo/finish.png') no-repeat center center;
-  background-size: 55px 45px;
+  position: relative;
+
+}
+
+.desc_container {
+  width: fit-content;
+  background: #009cff;
+  border-radius: 20px;
+  padding: 15px 25px;
+
+  display: flex;
 }

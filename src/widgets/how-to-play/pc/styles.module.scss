@@ -4,7 +4,7 @@
   align-items: stretch;
   justify-content: space-between;
 
-  // margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .img_body {
@@ -107,8 +107,18 @@
 
 .description_subtext {
   position: relative;
+
   text-transform: uppercase;
-  color: #ec1c24;
+  font-family: 'Capture it', sans-serif;
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+
+  font-weight: 400;
+  background: #009cff;
 }
 
 .like {

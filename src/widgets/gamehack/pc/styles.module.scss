@@ -65,3 +65,63 @@
 .description_text {
   margin-bottom: 40px;
 }
+
+.description_subtext {
+  position: relative;
+
+  width: fit-content;
+
+  text-transform: uppercase;
+  font-family: 'Capture it', sans-serif;
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+
+  font-weight: 400;
+  background: #009cff;
+}
+
+.description_subtext::after {
+  content: '';
+  width: 43px;
+  height: 43px;
+
+  top: -5px;
+  rotate: 30deg;
+
+
+  display: inline-block;
+  position: absolute;
+
+  background: url('../../../shared/assets/photo/star.png') no-repeat center center;
+  background-size: contain;
+
+}
+
+.border {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+.green_color {
+  color: #3da237;
+}
+
+.red_color {
+  color: #ec1c24;
+}
+
+.blue_color {
+  color: #009cff;
+}
+
+.rainbow :nth-child(even) {
+  color: #009cff;
+}
+.rainbow :nth-child(odd) {
+  color: #ec1c24;
+}

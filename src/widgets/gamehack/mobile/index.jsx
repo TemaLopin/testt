@@ -8,6 +8,8 @@ import DoorLeft from '../../../shared/assets/photo/door_green_arrow.png'
 import DoorRight from '../../../shared/assets/photo/door_rose_arrow.png'
 
 export const GameHack = () => {
+  const rainbowWords = '«СЛУЧАЙНЫЕ СВЯЗИ»'.split('').map((word) => (word !== ' ' ? <span>{word}</span> : ' '))
+
   return (
     <div className={s.body} id='gamehack'>
       <p className={clsx('title', 'container', s.title)}>Геймхаки</p>
@@ -17,8 +19,9 @@ export const GameHack = () => {
           ячейках.
         </p>
         <p className={clsx('description_text', s.description_text)}>
-          <b> - зелёная стрелка </b> – двигаетесь вперёд,
-          <br /> <b> - красная стрелка </b> –назад, <br /> В стрелках показано количество ходов, которые надо сделать.
+          <b className={s.green_color}> - зелёная стрелка </b> – двигаетесь вперёд,
+          <br /> <b className={s.red_color}> - красная стрелка </b> –назад, <br /> В стрелках показано количество ходов,
+          которые надо сделать.
           <br />
           Описание самих ячеек смотри в бумажных правилах.
         </p>
@@ -30,8 +33,9 @@ export const GameHack = () => {
 
       <div className='container'>
         <p className={clsx('description_text', s.description_text)}>
-          Приближаясь к участку <b> «случайные связи» </b> - подумайте: стоит <b> «применить презерватив» </b> перед
-          броском кубика или пожертвовать <b> «лекарством» </b>, если другого выбора нет.
+          Приближаясь к участку <b className={s.rainbow}>{rainbowWords}</b> - подумайте: стоит применить{' '}
+          <b className={s.blue_color}> «ПРЕЗЕРВАТИВ» </b> перед броском кубика или пожертвовать{' '}
+          <b className={s.red_color}> «ЛЕКАРСТВОМ» </b>, если другого выбора нет.
         </p>
       </div>
 

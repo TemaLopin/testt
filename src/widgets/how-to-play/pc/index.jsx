@@ -11,6 +11,7 @@ import Rot from '../../../shared/assets/gif/grot.gif'
 import Tonel from '../../../shared/assets/gif/tonel.gif'
 import Buhta from '../../../shared/assets/gif/buhta.gif'
 
+
 import s from './styles.module.scss'
 
 export const HowToPlayPC = () => {
