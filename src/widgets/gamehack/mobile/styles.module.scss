@@ -90,7 +90,7 @@
     width: 60%;
   }
 
-  img:first-of-type {
+  img:last-child {
     transform: scaleX(-1);
   }
 }
@@ -115,10 +115,11 @@
 
   color: #fff;
 
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin: 0px auto;
   border-radius: 20px;
 
+  font-size: 8px;
   font-weight: 400;
   background: #009cff;
 }
