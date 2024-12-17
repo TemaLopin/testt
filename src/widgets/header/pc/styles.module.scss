@@ -15,25 +15,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  list-style-type: none;
   padding: 30px 30px;
   gap: 10px;
 }
 
 .container ul li:first-child {
-  list-style: none
+  list-style: none;
 }
 
 .container ul li {
   cursor: pointer;
-  text-decoration: underline;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-@media (min-width: 1450px) {
+@media (max-width: 1200px) {
   .container ul {
-    list-style-type: disc;
-    li {
-      text-decoration: none;
-    }
+    list-style: none;
   }
 }
