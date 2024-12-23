@@ -33,9 +33,13 @@
 }
 
 .report {
+ cursor: pointer;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  text-decoration: none;
 
   font-family: Roboto, sans-serif;
   font-size: 20px;

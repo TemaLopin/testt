@@ -37,10 +37,10 @@ export const Merch = () => {
         </li>
       </ul>
 
-      <div className={clsx('container', s.report)}>
+      <a target='_blank' href='https://t.me/Four_finishes' className={clsx('container', s.report)}>
         <p>Проголосовать →</p>
         <Telegram />
-      </div>
+      </a>
     </div>
   )
 }

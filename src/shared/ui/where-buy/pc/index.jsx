@@ -6,10 +6,14 @@ export const WhereBuyPC = () => {
     <div className={s.container}>
       <p>Купить можно здесь</p>
       <div className={s.button_container}>
-        <a href='#' className={s.wb}></a>
-        <a href='#' className={s.ozon}></a>
+        <a
+          target='_blank'
+          href='https://www.wildberries.ru/catalog/305561481/detail.aspx?targetUrl=GP'
+          className={s.wb}
+        />
+        <a target='_blank' href='https://ozon.ru/t/KYN7wA7' className={s.ozon} />
       </div>
-      <a href='#' className={clsx('blue_link', s.not_rf)}>
+      <a href='#notRF' className={clsx('blue_link', s.not_rf)}>
         Если вы не в РФ
       </a>
     </div>

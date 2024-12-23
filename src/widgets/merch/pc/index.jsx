@@ -33,10 +33,10 @@ export const MerchPC = () => {
           <p className='description_text'>стереомагниты с иллюстрацей финишей с GIF эффектом</p>
         </li>
       </ul>
-      <div className={clsx(s.report)}>
+      <a target='_blank' href='https://t.me/Four_finishes' className={clsx(s.report)}>
         <p>Проголосовать →</p>
         <Telegram />
-      </div>
+      </a>
     </ContainerLG>
   )
 }

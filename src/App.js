@@ -9,17 +9,19 @@ import useWindowDimensions from './shared/hooks/useWindowDimensions'
 import { Mobile } from './pages/mobile'
 import { PC } from './pages/pc'
 
-const tg = window.Telegram.WebApp
+const mainPathName = '4finisha.ru'
 
 function App() {
   const { width } = useWindowDimensions()
 
   useEffect(() => {
-    tg.ready()
+    const hostname = window.location.hostname
+
+    if (hostname === 'localhost') return
+    if (hostname === mainPathName) return
+
+    window.location.hostname = mainPathName
   }, [])
-
-
-  const onClose = () => tg.close()
 
   return <MainLayout>{width > 1200 ? <PC /> : <Mobile />}</MainLayout>
 }
