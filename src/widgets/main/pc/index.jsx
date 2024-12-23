@@ -16,11 +16,9 @@ export const MainPC = () => {
       <div className={s.text_body}>
         <div className={s.right_side}>
           <img src={MainCards} className={s.cards} />
-          {/* {width > 1700 && ( */}
           <div className={s.wherebuy}>
             <WhereBuyPC />
           </div>
-          {/* )} */}
         </div>
       </div>
     </div>

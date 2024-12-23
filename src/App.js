@@ -14,15 +14,6 @@ const mainPathName = '4finisha.ru'
 function App() {
   const { width } = useWindowDimensions()
 
-  useEffect(() => {
-    const hostname = window.location.hostname
-
-    if (hostname === 'localhost') return
-    if (hostname === mainPathName) return
-
-    window.location.hostname = mainPathName
-  }, [])
-
   return <MainLayout>{width > 1200 ? <PC /> : <Mobile />}</MainLayout>
 }
 

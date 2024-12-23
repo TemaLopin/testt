@@ -18,12 +18,10 @@
   justify-content: center;
 
   margin-top: 15%;
-  // width: 50%;
 
   position: relative;
   transform: scale(0.9);
   right: -5%;
-  // left: -50px;
 
   @media (min-width: 1850px) {
     align-items: flex-end;
@@ -84,6 +82,7 @@
 }
 
 .text_body {
+  z-index: 11;
   width: 60%;
 }
 

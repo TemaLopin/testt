@@ -75,18 +75,16 @@
 }
 
 .ozon {
-  // width: 150px;
   padding: 15px 18px;
-
+  z-index: 2;
   content: url('../../../assets//icons//ozon.svg');
   background: #0069ff;
   background-size: contain;
 }
 
 .wb {
-  // width: 210px;
   padding: 15px 18px;
-
+  z-index: 2;
   content: url('../../../assets//icons//wb.svg');
   background: linear-gradient(90deg, #bf1f81 0%, #4d327c 100%);
   background-size: 100%;
